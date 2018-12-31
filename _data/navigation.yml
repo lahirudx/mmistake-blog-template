@@ -1,8 +1,8 @@
 # main links links
 main:
   - title: "Getting Started"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: /getting-started/
   - title: "FAQ"
-    url: /year-archive/
+    url: /faq/
   - title: "Guide"
-    url: /collection-archive/
+    url: /guide/

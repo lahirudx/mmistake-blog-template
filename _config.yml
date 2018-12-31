@@ -12,13 +12,13 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Site Title"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Meetrix.io"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -80,12 +80,13 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : &twitter "meetrixio"
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
+  username               : &facebook "meetrix"
+  app_id                 :  "131906234232845"
+  publisher              : "https://www.facebook.com/meetrix"
+og_image                 : "/assets/images/meetrix-landing.png"
+ # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -108,6 +109,9 @@ author:
   bio              : "I am an amazing person."
   location         : "Somewhere"
   email            :
+  facebook         : "meetrix"
+  github           : "meetrix"
+
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
